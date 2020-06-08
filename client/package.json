@@ -8,8 +8,11 @@
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
     "react-scripts": "^2.1.1",
-    "express": "4.15.2",
-    "jquery": "3.2.1"
+    "react-interactjs": "^0.1.2",
+    "react-moment": "^0.9.6",
+    "react-router-dom": "^4.3.1",
+    "express": "^4.15.2",
+    "jquery": "^3.4.1"
   },
   "scripts": {
     "start": "react-scripts start",
