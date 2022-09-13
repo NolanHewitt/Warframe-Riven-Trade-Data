@@ -24,3 +24,4 @@ app.listen(PORT, () => {
 });
 //npm run start
 //use this /\ in terminal to start server
+//to end, press ctrl + c
