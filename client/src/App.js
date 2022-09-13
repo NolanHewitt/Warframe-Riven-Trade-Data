@@ -74,14 +74,14 @@ class App extends Component {
       
       if (dataPC[i].compatibility === null){
         // eslint-disable-next-line
-        divTag.innerHTML = "Weapon: " + "Veiled" + "<br/>" + " Item Type: " + dataPC[i].itemType + "<br/>" + " Rerolled: " + dataPC[i].rerolled + "<br/>" +  " Average Price: " + dataPC[i].avg + "<br/>" + " Standard Deviation: " + dataPC[i].stddev + "<br/>" + "<br/>";
+        divTag.innerHTML = "Weapon: " + "Veiled" + "<br/>" + " Item Type: " + dataPC[i].itemType + "<br/>" + " Rerolled: " + dataPC[i].rerolled + "<br/>" +  " Average Price: " + dataPC[i].avg + "<br/>" + " Maximum Price: " + dataPC[i].max + "<br/>" + " Minimum Price: " + dataPC[i].min + "<br/>" + " Mediam Price: " + dataPC[i].median + "<br/>" + " Standard Deviation: " + dataPC[i].stddev + "<br/>" + "<br/>";
         divTag.id = "Veiled " + dataPC[i].itemType;
         divTag.className = "veiled";
         document.getElementById("Rivens").appendChild(divTag);
       }
       else {
         // eslint-disable-next-line
-        divTag.innerHTML = "Weapon: " + dataPC[i].compatibility + "<br/>" + " Item Type: " + dataPC[i].itemType + "<br/>" + " Rerolled: " + dataPC[i].rerolled + "<br/>" +  " Average Price: " + dataPC[i].avg + "<br/>" + " Standard Deviation: " + dataPC[i].stddev + "<br/>" + "<br/>";
+        divTag.innerHTML = "Weapon: " + "Veiled" + "<br/>" + " Item Type: " + dataPC[i].itemType + "<br/>" + " Rerolled: " + dataPC[i].rerolled + "<br/>" +  " Average Price: " + dataPC[i].avg + "<br/>" + " Maximum Price: " + dataPC[i].max + "<br/>" + " Minimum Price: " + dataPC[i].min + "<br/>" + " Mediam Price: " + dataPC[i].median + "<br/>" + " Standard Deviation: " + dataPC[i].stddev + "<br/>" + "<br/>";
           if (dataPC[i].compatibility.split(' ')[0] === "<ARCHWING>"){
             divTag.id = dataPC[i].compatibility.split(' ')[1] + " " + i;
             document.getElementById("Rivens").appendChild(divTag);
@@ -108,14 +108,14 @@ class App extends Component {
       
       if (dataPS4[j].compatibility === null){
         // eslint-disable-next-line
-        divTag.innerHTML = "Weapon: " + "Veiled" + "<br/>" + " Item Type: " + dataPS4[j].itemType + "<br/>" + " Rerolled: " + dataPS4[j].rerolled + "<br/>" +  " Average Price: " + dataPS4[j].avg + "<br/>" + " Standard Deviation: " + dataPS4[j].stddev + "<br/>" + "<br/>";
+        divTag.innerHTML = "Weapon: " + "Veiled" + "<br/>" + " Item Type: " + dataPS4[j].itemType + "<br/>" + " Rerolled: " + dataPS4[j].rerolled + "<br/>" +  " Average Price: " + dataPS4[j].avg + "<br/>" + " Maximum Price: " + dataPS4[j].max + "<br/>" + " Minimum Price: " + dataPS4[j].min + "<br/>" + " Mediam Price: " + dataPS4[j].median + "<br/>" + " Standard Deviation: " + dataPS4[j].stddev + "<br/>" + "<br/>";
         divTag.id = "Veiled " + dataPS4[j].itemType;
         divTag.className = "veiled";
         document.getElementById("Rivens").appendChild(divTag);
       }
       else {
         // eslint-disable-next-line
-        divTag.innerHTML = "Weapon: " + dataPS4[j].compatibility + "<br/>" + " Item Type: " + dataPS4[j].itemType + "<br/>" + " Rerolled: " + dataPS4[j].rerolled + "<br/>" +  " Average Price: " + dataPS4[j].avg + "<br/>" + " Standard Deviation: " + dataPS4[j].stddev + "<br/>" + "<br/>";
+        divTag.innerHTML = "Weapon: " + "Veiled" + "<br/>" + " Item Type: " + dataPS4[j].itemType + "<br/>" + " Rerolled: " + dataPS4[j].rerolled + "<br/>" +  " Average Price: " + dataPS4[j].avg + "<br/>" + " Maximum Price: " + dataPS4[j].max + "<br/>" + " Minimum Price: " + dataPS4[j].min + "<br/>" + " Mediam Price: " + dataPS4[j].median + "<br/>" + " Standard Deviation: " + dataPS4[j].stddev + "<br/>" + "<br/>";
           if (dataPS4[j].compatibility.split(' ')[0] === "<ARCHWING>"){
             divTag.id = dataPS4[j].compatibility.split(' ')[1] + " " + j;
             document.getElementById("Rivens").appendChild(divTag);
@@ -142,14 +142,14 @@ class App extends Component {
       
       if (dataXBOX[k].compatibility === null){
         // eslint-disable-next-line
-        divTag.innerHTML = "Weapon: " + "Veiled" + "<br/>" + " Item Type: " + dataXBOX[k].itemType + "<br/>" + " Rerolled: " + dataXBOX[k].rerolled + "<br/>" +  " Average Price: " + dataXBOX[k].avg + "<br/>" + " Standard Deviation: " + dataXBOX[k].stddev + "<br/>" + "<br/>";
+        divTag.innerHTML = "Weapon: " + "Veiled" + "<br/>" + " Item Type: " + dataXBOX[k].itemType + "<br/>" + " Rerolled: " + dataXBOX[k].rerolled + "<br/>" +  " Average Price: " + dataXBOX[k].avg + "<br/>" + " Maximum Price: " + dataXBOX[k].max + "<br/>" + " Minimum Price: " + dataXBOX[k].min + "<br/>" + " Mediam Price: " + dataXBOX[k].median + "<br/>" + " Standard Deviation: " + dataXBOX[k].stddev + "<br/>" + "<br/>";
         divTag.id = "Veiled " + dataXBOX[k].itemType;
         divTag.className = "veiled";
         document.getElementById("Rivens").appendChild(divTag);
       }
       else {
         // eslint-disable-next-line
-        divTag.innerHTML = "Weapon: " + dataXBOX[k].compatibility + "<br/>" + " Item Type: " + dataXBOX[k].itemType + "<br/>" + " Rerolled: " + dataXBOX[k].rerolled + "<br/>" +  " Average Price: " + dataXBOX[k].avg + "<br/>" + " Standard Deviation: " + dataXBOX[k].stddev + "<br/>" + "<br/>";
+        divTag.innerHTML = "Weapon: " + "Veiled" + "<br/>" + " Item Type: " + dataXBOX[k].itemType + "<br/>" + " Rerolled: " + dataXBOX[k].rerolled + "<br/>" +  " Average Price: " + dataXBOX[k].avg + "<br/>" + " Maximum Price: " + dataXBOX[k].max + "<br/>" + " Minimum Price: " + dataXBOX[k].min + "<br/>" + " Mediam Price: " + dataXBOX[k].median + "<br/>" + " Standard Deviation: " + dataXBOX[k].stddev + "<br/>" + "<br/>";
           if (dataXBOX[k].compatibility.split(' ')[0] === "<ARCHWING>"){
             divTag.id = dataXBOX[k].compatibility.split(' ')[1] + " " + k;
             document.getElementById("Rivens").appendChild(divTag);
@@ -176,14 +176,14 @@ class App extends Component {
       
       if (dataSWITCH[l].compatibility === null){
         // eslint-disable-next-line
-        divTag.innerHTML = "Weapon: " + "Veiled" + "<br/>" + " Item Type: " + dataSWITCH[l].itemType + "<br/>" + " Rerolled: " + dataSWITCH[l].rerolled + "<br/>" +  " Average Price: " + dataSWITCH[l].avg + "<br/>" + " Standard Deviation: " + dataSWITCH[l].stddev + "<br/>" + "<br/>";
+        divTag.innerHTML = "Weapon: " + "Veiled" + "<br/>" + " Item Type: " + dataSWITCH[l].itemType + "<br/>" + " Rerolled: " + dataSWITCH[l].rerolled + "<br/>" +  " Average Price: " + dataSWITCH[l].avg + "<br/>" + " Maximum Price: " + dataSWITCH[l].max + "<br/>" + " Minimum Price: " + dataSWITCH[l].min + "<br/>" + " Mediam Price: " + dataSWITCH[l].median + "<br/>" + " Standard Deviation: " + dataSWITCH[l].stddev + "<br/>" + "<br/>";
         divTag.id = "Veiled " + dataSWITCH[l].itemType;
         divTag.className = "veiled";
         document.getElementById("Rivens").appendChild(divTag);
       }
       else {
         // eslint-disable-next-line
-        divTag.innerHTML = "Weapon: " + dataSWITCH[l].compatibility + "<br/>" + " Item Type: " + dataSWITCH[l].itemType + "<br/>" + " Rerolled: " + dataSWITCH[l].rerolled + "<br/>" +  " Average Price: " + dataSWITCH[l].avg + "<br/>" + " Standard Deviation: " + dataSWITCH[l].stddev + "<br/>" + "<br/>";
+        divTag.innerHTML = "Weapon: " + "Veiled" + "<br/>" + " Item Type: " + dataSWITCH[l].itemType + "<br/>" + " Rerolled: " + dataSWITCH[l].rerolled + "<br/>" +  " Average Price: " + dataSWITCH[l].avg + "<br/>" + " Maximum Price: " + dataSWITCH[l].max + "<br/>" + " Minimum Price: " + dataSWITCH[l].min + "<br/>" + " Mediam Price: " + dataSWITCH[l].median + "<br/>" + " Standard Deviation: " + dataSWITCH[l].stddev + "<br/>" + "<br/>";
           if (dataSWITCH[l].compatibility.split(' ')[0] === "<ARCHWING>"){
             divTag.id = dataSWITCH[l].compatibility.split(' ')[1] + " " + l;
             document.getElementById("Rivens").appendChild(divTag);
@@ -304,7 +304,7 @@ class App extends Component {
       </div>
 
       <br/>
-
+{/*
       <form onSubmit={this.handleWeaponSubmit}>
         <label>
           Select your Weapon:
@@ -317,6 +317,7 @@ class App extends Component {
         </label>
         <input id="gunSelector" type="submit" value="Submit" />
       </form>
+      */}
 
 
 <div id="Rivens"></div>
